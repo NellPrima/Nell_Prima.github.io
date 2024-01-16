@@ -30,4 +30,12 @@ span {
     border: .5rem solid pink;
 }
 
+.evette {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: .5rem solid pink;
+    margin-top:6rem;
+}
+
 
