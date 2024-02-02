@@ -37,6 +37,16 @@
 }
 
 
+.cell1{
+ 
+    grid-area: "d4-cell2";
+
+}
+
+
+
+
+
 /* Drill 5 - Write your code solution below */
 #container-d5 {
     display: grid;
