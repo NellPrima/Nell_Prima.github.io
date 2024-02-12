@@ -1,0 +1,61 @@
+/* Drill 1 - Write your code solution below */
+#container-d1 {
+    display: grid;
+    grid-template-columns: 240px 240px;
+    grid-template-areas: 
+     "d1-cell-1 d1-cell2"
+     "d1-cell-3 d1-cell4"
+     "d1-cell-5 d1-cell6";
+
+}
+
+
+/* Drill 2 - Write your code solution below */
+#container-d2 {
+    display: grid;
+    grid-template-columns: 110px 240px 110px;
+    grid-template-areas: 
+    "d2-cell1 d2-cell2 d2-cell3"
+    "d2-cell4 d2-cell5 d2-cell6";
+}
+
+/* Drill 3 - Write your code solution below */
+#container-d3 {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-areas: 
+    "d3-cell2 d3-cell1  d3-cell3";
+}
+
+
+/* Drill 4 - Write your code solution below */
+.container{
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-areas: 
+    "d4-cell2 d4-cell3 d4-cell1";
+}
+
+
+.cell1{
+ 
+    grid-area: "d4-cell2";
+
+}
+
+
+
+
+
+/* Drill 5 - Write your code solution below */
+#container-d5 {
+    display: grid;
+    grid-template-columns: 100px 150px 100px;
+    grid-template-areas:
+    "d5-cell1 d5-cell1 d5-cell1"
+    "d5-cell3 d5-cell2 d5-cell2"
+    "d5-cell3 d5-cell2 d5-cell2";
+}
+
+/* Drill 6 - Write your code solution below */
+
