@@ -1,110 +1,138 @@
 * {
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 
 body {
-    background-image: url("../images/pencils.jpg");
-    background-size: cover;
-    background-position: center;
     margin: 0px;
+    font-family: sans-serif;
+    background: linear-gradient(-80deg, #1414df, #0f98e3, #131247);
+}
+
+
+.spacer {
+    height: 30vh;
+}
+
+#hero-2 {
+    background-image: url("../images/Pegasus.png");
     height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-end;
+}
+
+
+
+#hero-2 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 26vw;
+    color: aliceblue;
+}
+
+#hero-2 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+    color: aliceblue;
+}
+
+#hero-2 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: #4a6cc1;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+#hero-3 {
+    background-image: url("../images/Andromeda.webp");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+#hero-3 .hero-content {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+}
+
+#hero-3 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+    color: aliceblue;
+}
+
+#hero-3 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+    color: aliceblue;
+}
+
+#hero-3 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: #263d7c;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+
+#hero-4 {
+    background-image: url("../images/Perseus.webp");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
-
-#license {
-    border: 3px solid black;
-    border-radius: 24px;
-    width: 666px;
-    box-shadow: 6px 6px 6px;
-    background: linear-gradient(pink, lightyellow);
-    padding-bottom:30px;
-}
-#content {
-    margin: 10px;
-}
-div h4 {
-    padding: 10px;
-    background-color: darkblue;
+#hero-4 .hero-content {
+    text-align: center;
     color: white;
-    text-align: center;
-    font-size: 22px;
-    margin: 0px;
-}
-div h1 {
-    margin: 0px;
-    font-size: 50px;
-    color: darkblue;
-}
-#left-side {
-    display: inline-block;
-    width:65%;
-
-}
-#right-side {
-    display: inline-block;
-}
-#id-and-expiration div {
-    display: inline-block
-}
-#id-and-expiration div {
-    margin: 10px
-}
-#data-left,
-#data-right {
-    display: inline-block
+    padding-top: 20vh;
 }
 
-#personal-info {
+#hero-4 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+}
+
+#hero-4 h4 {
+    font-size: 3vw;
+    margin: 0px;
+}
+
+#hero-4 a {
+    font-size: 1.5vw;
     display: inline-block;
-    width:
+    background-color: rgb(21, 109, 223);
+    color: aliceblue;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 2vw 10vh;
 }
-#small-pic {
-    display:inline-block;
-    width:
-}
-#data-fields {
-    display:inline-block;
-    margin-left: 20px;
-}
-#right-side img {
-    width: 200px;
-    margin: 10px;
-}
-#left-side img {
-    width: 80px;
-    opacity: 50%;
-    margin-left: 10px;
-}
-#data-left span {
-    color: red;
-    font-weight: bold;
-}
-#data-right span {
-    color: red;
-    font-weight: bold;
-}
-#id-and-expiration span {
-    color: red;
-    font-weight: bold;
-}
-#donor {
-    color: red;
-    font-weight: bold;
-    text-align: center;
-    display: inline-block
-}
-#address {
-    font-weight: bold;
-    margin: 10px;
-}
-#real-id {
-    display: inline-block;
-   
-}
-#right-side {
+
+p {
+    font-size: 25px;
+    color:rgb(209, 242, 253);
+    justify-content: center;
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+    margin-left: 30%;
     text-align: center;
 }
