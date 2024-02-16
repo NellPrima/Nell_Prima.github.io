@@ -1,0 +1,126 @@
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#posca-1 h1 {
+    font-size: 15vw;
+    padding-left: 10vw;
+}
+#posca-1 {
+    background-image: url(../images/markergirl.webp);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+}
+#posca-1 h1 {
+    background-color:rgba(255, 255, 255, 0.586);
+    color: rgb(182, 40, 111);
+    font-size: 8vw;
+    margin-bottom: 5vw;
+    margin-right: 5vw;
+}
+.spacer {
+    height: 50vh;
+}
+#posca-1 h2 {
+    background-color:rgba(255, 255, 255, 0.68);
+    color:rgb(58, 125, 124);
+    font-size: 6vw;
+    margin-bottom: 5vw;
+    margin-right: 5vw;
+    text-align: center;
+}
+
+#posca-1 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: rgb(3, 249, 3);
+    color: rgb(9, 9, 231);
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+#posca-2 {
+    background-image: url(../images/Screenshot\ 2024-02-12\ at\ 1.26.15\ PM.png);
+    height: 62vh;
+    background-size: cover;
+    background-position: center center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+}
+
+#posca-2 h3 {
+    background-color:rgba(255, 255, 255, 0.244);
+    font-size: 15vw;
+    padding-left: 10vw;
+    color: rgb(27, 227, 27);
+}
+
+#posca-2 h4 {
+    background-color:rgba(255, 255, 255, 0.611);
+    color:rgb(255, 106, 0);
+    font-size: 6vw;
+    margin-bottom: 5vw;
+    margin-right: 5vw;
+    text-align: center;
+}
+
+#posca-2 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: rgba(241, 221, 196, 0.762);
+    color:rgb(108, 49, 164);
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+#posca-3 {
+    background-image: url(../images/Posca\ Swatches.jpeg);
+    height: 62vh;
+    background-size: cover;
+    background-position: center center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+}
+
+#posca-3 h5 {
+    background-color:rgba(255, 255, 255, 0.244);
+    font-size: 5vw;
+    padding-left: 10vw;
+    color: rgb(27, 227, 27);
+    text-align: center;
+}
+
+#posca-3 h6 {
+    background-color:rgba(255, 255, 255, 0.611);
+    color:rgb(255, 106, 0);
+    font-size: 6vw;
+    margin-bottom: 5vw;
+    margin-right: 5vw;
+    text-align: center;
+}
+
+#posca-3 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: rgba(241, 221, 196, 0.762);
+    color:rgb(108, 49, 164);
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
