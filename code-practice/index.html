@@ -3,50 +3,82 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Studio Gallery (Exercise)</title>
+        <title>Bulletin Board (Exercise)</title>
         <link href="css/setup.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet" data-meal-prep>
     </head>
     <body>
-        <div class="scene">
-            <div class="gallery">
-                <div class="wall back"></div>
-                <div class="wall left"></div>
-                <div class="wall right"></div>
-                <div class="ceiling"></div>
-                <div class="floor"></div>
-                <div class="showing-area">
-
-                    <div class="display-space">
-                        <!-- Add your code for your 1st poster/piece here -->
-                        <div id="display-area">
-                            <img 
-                                src="images/mona-lisa.png" 
-                                width="100" 
-                                alt="mona lisa eating a hotdog"
-                            >
-                        </div>
+        <div id="bulletin-board">
+            <!-- ADD YOUR HTML CODE INSIDE OF THIS DIV -->
+            <div class="row1">
+                <div class="post-it blue">
+                    <div class="push-pin pin-style1"></div>
+                    <h4>TO DO</h4>
+                    <ol>
+                        <li class="linethrough">Buy work shoes</li>
+                        <li class="linethrough">Cook dinner</li>
+                        <li>Feed cat</li>
+                    </ol>
+                </div>
+                <div class="post-it pink">
+                    <div class="push-pin pin-style2"></div>
+                    <h4>Favorite Quote</h4>
+                    <p>
+                        "Other people's success is not your failure."
+                        <div class="italic">- A wise person</div>
+                    </p>
+                </div>
+                <div class="post-it yellow">
+                    <div class="push-pin pin-style3"></div>
+                    <h3>Job Interview:</h3>
+                    <p>
+                        Tuesday,<br>01/30/2024<br>@ 2:30PM
+                    </p>
+                </div>
+                <div class="post-it lavender">
+                    <div class="push-pin pin-style4"></div>
+                    <div class="catto">
+                        <img 
+                            class="cat1"
+                            src="images/kitten.png"
+                            alt="a cute orange kitten"
+                        >
+                        <p>
+                            A cute orange kitten.
+                        </p>
                     </div>
-                    <div class="display-space">
-                        <!-- Add your code for your 2nd poster/piece here -->
-                        <div id="display-area-2">
-                            <img 
-                                src="images/cat-human.jpeg" 
-                                width="100" 
-                                alt="cat posing for painting"
-                            >
-                        </div>
-                    </div>
-                    <div class="display-space">
-                        <!-- Add your code for your 3rd poster/piece here -->
-                        <div id="display-area-3">
-                            <img 
-                                src="images/taking-picture.png" 
-                                width="150" 
-                                alt="the mona lisa and beautiful women taking a picture in the screaming painting"
-                            >
-                        </div>
-                    </div>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="post-it green">
+                    <div class="push-pin pin-style2"></div>
+                    <h2 class="underline">BE</h2>
+                    <h2 class="underline">CREATIVE</h2>
+                </div>
+                <div class="post-it blue">
+                    <div class="push-pin pin-style4"></div>
+                    <h3>GOALS</h3>
+                    <ul>
+                        <li>Eat more greens</li>
+                        <li>Run 3x a week</li>
+                        <li>Volunteer at soup kitchen</li>
+                    </ul>
+                </div>
+                <div class="post-it pink">
+                    <div class="push-pin pin-style1"></div>
+                    <h3>Call Sarah</h3>
+                    (012) 345 - 6789
+                </div>
+                <div class="post-it yellow">
+                    <div class="push-pin pin-style3"></div>
+                    <h3>Shopping List</h3>
+                    <ul>
+                        <li>almond milk</li>
+                        <li>red onions</li>
+                        <li>feta cheese</li>
+                        <li>noodles</li>
+                        <li>ketchup</li>
+                    </ul>
                 </div>
             </div>
         </div>
