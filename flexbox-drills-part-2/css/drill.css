@@ -17,13 +17,41 @@
 /* Drill 8 - Write your code solution below */
 #container-8 {
     display: flex;
-    justify-items: flex-start;
+    align-items:center;
+    justify-content: center;
+}
+
+.box {
+    flex: 1;
 }
 
 
 
+
+
 /* Drill 9 - Write your code solution below */
+.container {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+#c9-box2 {
+    flex: 7;
+}
+
+
+
 
 
 /* Drill 10 - Write your code solution below */
 
+#container-10 {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+#c10-box1 {
+    flex: 7;
+}
